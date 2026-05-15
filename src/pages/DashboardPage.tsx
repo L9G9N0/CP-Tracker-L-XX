@@ -9,7 +9,7 @@ export default function DashboardPage() {
   const overallPct = totalProblems > 0 ? Math.round((totalCompleted / totalProblems) * 100) : 0;
 
   return (
-    <div className="flex min-h-full">
+    <div className="flex-1 flex min-h-full">
       <main className="flex-1 min-w-0 px-7 py-7">
         <div className="mb-7">
           <h1 className="text-2xl font-bold text-white tracking-tight">Dashboard</h1>
